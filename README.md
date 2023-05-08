@@ -22,8 +22,6 @@ This project was recognized with the GIDI-UP: Summer Research Award and awarded 
 
 ## Repository Contents
 
-- `data/`: Raw and processed transcriptomics datasets
-- `models/`: MATLAB scripts and trained models for metabolic modeling and simulation
-- `notebooks/`: Jupyter notebooks for data analysis and visualization
-- `results/`: Tables, figures, and statistical analyses of metabolic dysregulation and validation
-- `scripts/`: Python and Bash scripts for the tumor prediction project
+- `matlab-scripts/`: MATLAB scripts to pre-process data and run machine learning
+- `bash-scripts/`: Bash scripts to run these RIPTiDe on all generated TSV files in parallel on Rivanna and clean up job files
+- `python-scripts/`: Python scripts for creating a file tree, converting from Entrez to Ensembl gene ID's, creating separate TSV files, and running RIPTiDe
