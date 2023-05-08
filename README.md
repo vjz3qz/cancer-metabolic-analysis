@@ -1,9 +1,5 @@
 #  Computer models of human metabolic networks to analyze cancer states and predict biomarkers
 
-## Data Processing
-
-Pre-processed transcriptomics datasets using Python and pandas dataframes on an HPC Linux system, Rivanna. Included are Python scripts for creating a file tree, converting from Entrez to Ensembl gene ID's, creating separate TSV files, and running RIPTiDe. It also includes Bash scripts to run these RIPTiDe on all generated TSV files in parallel on Rivanna.
-
 <!---
 
 ## Metabolic Modeling
